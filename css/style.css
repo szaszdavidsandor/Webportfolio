@@ -120,3 +120,50 @@ header img {
     color: #00adb5;
     font-weight: bold;
 }
+
+#Kepessegeim {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+#Kepessegeim h1 {
+    font-size: 2rem;
+    color: #00adb5;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#Kepessegeim h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #00adb5;
+}
+
+#Kepessegeim ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#Kepessegeim li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #cccccc;
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 25px;
+}
+
+#Kepessegeim li::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: #00adb5;
+    font-weight: bold;
+}
