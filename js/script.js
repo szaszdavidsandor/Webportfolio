@@ -13,3 +13,20 @@ document.querySelectorAll('#navbar a').forEach(link => {
         }
     });
 });
+
+const topGomb = document.getElementById("top-gomb");
+
+window.onscroll = function() {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        topGomb.style.display = "block";
+    } else {
+        topGomb.style.display = "none";
+    }
+};
+
+topGomb.addEventListener("click", function() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});

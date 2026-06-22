@@ -272,3 +272,25 @@ footer {
         gap: 25px;
     }
 }
+
+#top-gomb {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: #00adb5;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+#top-gomb:hover {
+    background-color: #ffffff;
+    color: #121212;
+}
