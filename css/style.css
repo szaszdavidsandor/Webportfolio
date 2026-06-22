@@ -219,3 +219,56 @@ header img {
     color: #cccccc;
     margin: 0;
 }
+
+footer {
+    background-color: #1a1a1a;
+    padding: 30px 20px;
+    margin-top: 80px;
+    border-top: 1px solid #2d2d2d;
+}
+
+.footer-tartalom {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.footer-tartalom p {
+    margin: 0;
+    color: #888888;
+    font-size: 0.9rem;
+}
+
+.elerhetosegek {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.elerhetosegek p {
+    color: #cccccc;
+    font-size: 1rem;
+}
+
+.elerhetosegek a {
+    color: #00adb5;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.elerhetosegek a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+    .elerhetosegek {
+        flex-direction: row;
+        gap: 25px;
+    }
+}
