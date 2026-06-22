@@ -167,3 +167,55 @@ header img {
     color: #00adb5;
     font-weight: bold;
 }
+
+#tanulmanyok {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+#tanulmanyok h1 {
+    font-size: 2rem;
+    color: #00adb5;
+    margin-bottom: 25px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#tanulmanyok h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #00adb5;
+}
+
+.tanulmany-elem {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #00adb5;
+    margin-bottom: 20px;
+}
+
+.tanulmany-elem h2 {
+    font-size: 1.4rem;
+    color: #ffffff;
+    margin: 0 0 5px 0;
+}
+
+.tanulmany-elem h3 {
+    font-size: 1rem;
+    color: #00adb5;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+}
+
+.tanulmany-elem p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #cccccc;
+    margin: 0;
+}
